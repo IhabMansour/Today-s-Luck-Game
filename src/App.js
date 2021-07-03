@@ -200,10 +200,7 @@ const App = () => {
             <hr className="horizantal_Line_Animation"></hr>
             <p className="titleOfLeftOfButtons">{t('LOREMIPSUM')}</p>
             <hr className="horizantalLine"></hr>
-
             <p className="contentOfLeftOfButtons">{t('AgamebyIhabmadetochangetheworld!')}</p>
-
-
           </div>
 
           <div className="borderOfBottons">
@@ -240,7 +237,6 @@ const App = () => {
 
           <div className="bottomOfGame">
             <Message message={message} numberOfClicks={numberOfClicks} totalPoints={totalPoints} />
-
             <div className="play">
               <button onClick={() => {
                 handleReset();
@@ -250,13 +246,9 @@ const App = () => {
                 <p>{t('Play')}</p>
               </button>
             </div>
-
           </div>
-
         </div>
-
       </div>
-
     </React.Fragment>
   )
 }
