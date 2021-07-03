@@ -1,0 +1,166 @@
+@import "./colors.scss";
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .nameOfGame {
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-radius: 7px;
+    margin: 10px auto 0px auto;
+    width: 900px;
+    height: 50px;
+  }
+
+  .nameOfGame p {
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    color: $white;
+  }
+
+  .contentsOfGame {
+    justify-content: center;
+    width: 900px;
+    margin: 0px auto;
+  }
+
+  .leftOfButtons {
+    border: solid;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 10px 5px 10px 0px;
+    width: 295px;
+    height: 290px;
+    float: left;
+  }
+
+  .titleOfLeftOfButtons {
+    color: $green;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px $green;
+  }
+
+  .contentOfLeftOfButtons {
+    text-align: justify;
+    color: $green;
+    font-size: 18px;
+    text-shadow: 0px 0px 10px $green;
+  }
+
+  .borderOfBottons {
+    margin: 5px 0px;
+    width: 300px;
+    float: left;
+  }
+
+  .buttonsOfLuck {
+    margin: 5px;
+    height: 90px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    font-size: 60px;
+    color: $white;
+  }
+
+  .rightOfButtons {
+    margin: 10px 0px 10px 5px;
+    padding: 5px;
+    border: solid;
+    border-radius: 7px;
+    width: 295px;
+    height: 290px;
+    float: right;
+  }
+
+  .textOfrightButton {
+    text-align: justify;
+    color: $green;
+    font-size: 18px;
+    text-shadow: 0px 0px 10px $green;
+  }
+
+  .bottomOfGame {
+    display: flex;
+  }
+
+  .message p {
+    font-size: 30px;
+    margin: 0 auto;
+    color: $green;
+    text-shadow: 0px 0px 10px $green;
+  }
+
+  .resultOfGame {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 60px;
+    border: solid;
+    border-radius: 7px;
+  }
+
+  .timer {
+    margin-left: 5px;
+    width: 550px;
+    color: $white;
+  }
+
+  .numberOfClicks {
+    width: 450px;
+    color: $white;
+  }
+
+  .totalPoints {
+    width: 450px;
+    color: $white;
+  }
+
+  .message {
+    border: solid;
+    border-radius: 7px;
+    margin: 10px 5px 10px 0;
+    width: 900px;
+  }
+
+  .message p {
+    font-size: 30px;
+    margin: 0 auto;
+    color: $green;
+    text-shadow: 0px 0px 10px $green;
+    text-align: center;
+  }
+
+  .play button {
+    width: 445px;
+    border: solid;
+    border-radius: 7px;
+    margin: 10px 0 10px 5px;
+    background-color: $gray;
+    border-color: $gray;
+  }
+
+  .play button p {
+    font-size: 50px;
+    color: $white;
+  }
+
+  @keyframes horizantal_Line {
+    0% {
+      top: 0px;
+    }
+    100% {
+      top: 260px;
+    }
+  }
+
+  @keyframes horizantal_Line_Buttom {
+    0% {
+      top: 0px;
+    }
+    100% {
+      top: 80px;
+    }
+  }
+}

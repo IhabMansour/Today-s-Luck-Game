@@ -1,0 +1,96 @@
+@import "./mobile.scss";
+
+@import "./smallScreen.scss";
+
+@import "./mediumScreen.scss";
+
+@import "./large.scss";
+
+@import "./labtop.scss";
+
+body {
+  background-color: $black;
+  font-family: Arial, sans-serif;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+.red {
+  animation-name: animate_red;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate_red {
+  100% {
+    background-color: $red;
+  }
+}
+
+.yellow {
+  animation-name: animate_yellow;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate_yellow {
+  100% {
+    background-color: $yellow;
+  }
+}
+
+.gray {
+  animation-name: animate_gray;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate_gray {
+  100% {
+    background-color: $gray;
+  }
+}
+
+.horizantalLine {
+  border: solid;
+  border-color: $green;
+}
+
+.horizantal_Line_Animation {
+  position: relative;
+  border: solid 7px;
+  border-color: $green;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.09;
+  animation-name: horizantal_Line;
+  animation-duration: 0.05s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  z-index: -1;
+  box-shadow: 0px 0px 20px $green;
+}
+
+.buttonsOfLuck:hover {
+  background-color: rgb(99, 96, 96);
+}
+
+.horizantal_Line_Buttom_Animation {
+  position: relative;
+  border: solid 7px;
+  border-color: #72ec72;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.099;
+  animation-name: horizantal_Line_Buttom;
+  animation-duration: 0.05s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  box-shadow: 0px 0px 20px #72ec72;
+}
+
+.play button:active {
+  border-color: rgb(0, 0, 141);
+}
